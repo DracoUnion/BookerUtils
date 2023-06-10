@@ -1,4 +1,3 @@
 requests
-pyquery
-selenium
-PyExecJS
+xpinyin
+frozendict
