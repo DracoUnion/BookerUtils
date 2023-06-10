@@ -1,9 +1,6 @@
 from functools import reduce
 from os import path
 
-
-
-
 def dict_get_recur(obj, keys):
     res = [obj]
     for k in keys.split('.'):

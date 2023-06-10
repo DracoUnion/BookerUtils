@@ -6,7 +6,7 @@ import sys
 import uuid
 import shutil
 
-ef fname_escape(name):
+def fname_escape(name):
     return name.replace('\\', '＼') \
                .replace('/', '／') \
                .replace(':', '：') \
